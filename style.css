@@ -1,0 +1,211 @@
+body{
+    background-color: #f6f0f0;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem ;
+    margin-bottom: 3rem ;
+    margin-left: 5% ;
+    margin-right: 5% ;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+header > img {
+    display:block ;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+nav ul {
+    list-style: none ;
+    text-align: center;
+
+
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+
+section{
+    display: flex ;
+    background-color: #222a2c48;
+    border-radius: 10px;
+    padding: 20px;
+    top: 50px;
+    left: 50px;
+    bottom: auto;
+    margin: 5px;
+}
+
+article {
+    flex: 1 ;
+    background-color: #9a9c5cea;
+    border-radius: 10px;
+    padding: 10px;
+    top: 50px;
+    left: 50px;
+    bottom: auto;
+    right: 10px;
+    margin: 5px;
+}
+
+.sec1{
+    background-image: url("images/restfood.png");
+    background-size: cover;
+    font-family: 'Markazi Text', serif;
+    color: #f6f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    top: 50px;
+    left: 50px;
+    bottom: auto;
+    margin: 5px;
+    transition: color 0.2s ease-in-out;
+
+}
+
+
+.sec1:hover{
+    color: rgb(185, 202, 193);
+}
+
+.sec2{
+    transition: color 0.2s ease-in-out;
+}
+
+.sec2:hover{
+    transform: scale(1.01); 
+}
+
+.sec3{
+    transition: color 0.2s ease-in-out;
+}
+
+.sec3:hover{
+    transform: scale(1.01); 
+}
+
+.sec4{
+    transition: color 0.2s ease-in-out;
+}
+
+.sec4:hover{
+    transform: scale(1.01); 
+}
+
+.secx{
+    transition: color 0.4s ease-in-out;
+}
+.secx:hover{
+    transform: scale(1.01); 
+}
+
+.background-image {
+    background-image: url("images/restfood.png");
+    background-size: cover;
+  }
+
+.navigationmenu {
+    background-color: #0a0a0a;
+    border-radius: 18px;
+    padding: 0.3rem;
+    margin: 5px;
+    width: auto;
+
+
+
+}
+
+.font1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 10px;
+    color: #f6f0f0;
+    font-style: bold;
+}
+
+a{
+    color: #f6f0f0;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 18px;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    display: block; /* display as a block-level element */
+    margin: 0 auto; 
+}
+.headimg{
+    display: block; /* display as a block-level element */
+    margin: 30px auto; 
+}
+.footimg{
+    display: block; /* display as a block-level element */
+    margin: 12px auto; 
+    float: left;
+
+}
+
+.bullets{
+    list-style: square;
+    color: #070707;
+    font-style: bold;
+
+}
+
+footer{
+    display: flex ;
+    justify-content: space-between;
+
+}
+
+.foot{
+    float:right;
+    width: 350px;
+}
+
+.foottext{
+    text-align: right ;
+}
+
+.title1{
+    transition: color 0.2s ease-in-out;
+}
+
+.title1:hover{
+    color: rgb(234, 5, 5);
+}
+
+.title2{
+    transition: color 0.2s ease-in-out;
+}
+
+.title2:hover{
+    color: rgb(234, 5, 5);
+}
+
+.title3{
+    transition: color 0.2s ease-in-out;
+}
+
+.title3:hover{
+    color: rgb(234, 5, 5);
+}
+
+.title4{
+    transition: color 0.2s ease-in-out;
+}
+
+.title4:hover{
+    color: rgb(234, 5, 5);
+}

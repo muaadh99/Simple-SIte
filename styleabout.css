@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: #f6f0f0;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem ;
+    margin-bottom: 3rem ;
+    margin-left: 1% ;
+    margin-right: 5% ;
+}
+
+section{
+    display:flex ;
+
+    margin: 0;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+
+section:hover{
+    color: rgb(228, 233, 230);
+    transform: scale(1.01); 
+}
+
+
+.aboutclass{
+    display:block ;
+    width: 1200px;
+    background-color: rgb(64, 68, 68) ;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5%;
+}
+
+.social-media{
+    margin-left: 450px;
+}
+
+.myimage{
+    display:block ;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+.abouttext{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.projects{
+    display:block ;
+    width: 1200px;
+    background-color: rgb(64, 68, 68) ;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5%;
+
+}
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  main {
+    max-width: 1000px;
+    align-items: center;
+    margin: 95px;
+  }
+  
